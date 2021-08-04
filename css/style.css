@@ -30,7 +30,9 @@ a {
 body {
   background-color: #f8f9fa;
 }
-
+h2 {
+  padding: 0 10px 0 0;
+}
 /* header style */
 
 .container {
@@ -133,7 +135,7 @@ nav .logo img {
   text-align: center;
   color: #ffffff;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: #00b0ff;
   box-shadow: 0 8px 32px rgba(0, 176, 255, 0.5);
 }
@@ -150,4 +152,25 @@ nav .logo img {
 .article {
   width: 30%;
   background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  padding: 45px 30px 60px 30px;
+  transition: 0.7s;
+}
+.article:hover {
+  box-shadow: 0 1px 15px rgba(0, 176, 255, 0.2);
+}
+.article span {
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #00b0ff;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+  border-radius: 6px;
+  box-shadow: 0 8px 32px rgba(0, 176, 255, 0.5);
 }
