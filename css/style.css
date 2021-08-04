@@ -2,6 +2,105 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif;
-  /* font-family: 'Odibee Sans', cursive;      for main elemnts*/
+  font-family: "IBM Plex Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  font-weight: 700;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+.containerF {
+  width: 90%;
+  max-width: 1000px;
+  padding: 60px;
+  margin: auto;
+  overflow: hidden;
+}
+h1 {
+  font-size: 50px;
+}
+
+nav {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 2px solid transparent;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+  /* transition: ease-in-out 0.5s; */
+}
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  height: 100px;
+}
+nav .logo img {
+  height: 100%;
+  vertical-align: top;
+}
+.link-header {
+  font-weight: 300;
+}
+.nav .link-header a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5d6678;
+  background-color: red;
+}
+.hamburguer {
+  display: none;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: #834762;
+  z-index: 2;
+  cursor: pointer;
+  /* transition: color 0.5s ease-in; */
+}
+.hamburguer span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100px;
+}
+.content-header {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-header img {
+  width: 50%;
+  animation: ease-in animate 0.5s;
+}
+
+.text-header {
+  margin: 0 0 0 60px;
 }
