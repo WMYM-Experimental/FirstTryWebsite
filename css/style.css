@@ -27,11 +27,18 @@ h6 {
 a {
   text-decoration: none;
 }
+body {
+  background-color: #f8f9fa;
+}
+
+/* header style */
+
 .container {
   width: 90%;
   max-width: 1000px;
   margin: auto;
   overflow: hidden;
+  background-color: #f8f9fa;
 }
 .containerF {
   width: 90%;
@@ -61,6 +68,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 25px 0 25px;
+  background: #ffffff;
 }
 nav .logo {
   height: 100px;
@@ -128,4 +136,18 @@ nav .logo img {
   border-radius: 5px;
   background-color: #00b0ff;
   box-shadow: 0 8px 32px rgba(0, 176, 255, 0.5);
+}
+
+/* about us */
+.title {
+  font-size: 50px;
+}
+.about-us {
+  background-color: #f8f9fa;
+}
+.container__article {
+}
+.article {
+  width: 30%;
+  background-color: #fff;
 }
