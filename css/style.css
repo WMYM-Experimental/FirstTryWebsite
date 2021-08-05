@@ -315,7 +315,7 @@ nav .logo img {
   background: #ffffff;
   padding: 10px 0 10px 15px;
   margin: 10px 10px;
-  box-shadow: 0 0 8px rgba(0, 176, 255, 0.5);
+  box-shadow: 0 0 8px rgba(0, 176, 255, 0.2);
 }
 .box-skills span {
   color: #00b0ff;
