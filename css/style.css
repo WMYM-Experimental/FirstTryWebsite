@@ -200,8 +200,8 @@ nav .logo img {
   padding-right: 3px;
 }
 .article a:hover {
-  font-weight: 700;
-  font-style: italic;
+  border-bottom: 5px solid;
+  border-right: 5px solid;
 }
 
 /* Questions */
@@ -237,4 +237,64 @@ nav .logo img {
   border-radius: 6px;
   background-color: #00b0ff;
   box-shadow: 0 8px 32px rgba(0, 176, 255, 0.5);
+}
+.containerR {
+  width: 90%;
+  height: 550px;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+  color: #fff;
+}
+.results {
+  padding-top: 20px;
+  background-color: #00b0ff;
+}
+.content-results {
+  display: flex;
+  justify-content: space-evenly;
+}
+.numbers {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.numbers .number {
+  width: 45%;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 40px 35px;
+  margin-bottom: 20px;
+}
+.numbers .number h4 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.results-text {
+  width: 38%;
+}
+.results-text h4 {
+  padding-top: 20%;
+  color: #fff;
+  font-size: 40px;
+}
+.results-text p {
+  color: #fff;
+  font-weight: 300;
+  margin: 30% 0;
+}
+.results-text a {
+  color: #fff;
+  display: inline-block;
+  border: 1px solid #fff;
+  width: 140px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 6px;
+}
+.results-text a:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
